@@ -12,7 +12,7 @@ struct NPC
 };
 
 NPC* CreateNPC();
-void PrintNPCDetails();
+void PrintNPCDetails(NPC* npc);
 
 NPC* CreateNPC()
 {
@@ -62,4 +62,3 @@ int main()
 
 	return 0;
 }
-/* Insert function definitions here */
