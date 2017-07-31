@@ -12,7 +12,7 @@ int main()
 	// Test Setters
 	testPlayer.SetHealth(50);
 	testPlayer.SetRage(10);
-	testPlayer.GiveExperience(84.7);
+	testPlayer.GiveExperience(84.7f);
 
 	// Test Getters
 	std::cout << "Health is Now: " << testPlayer.Health() << std::endl;
