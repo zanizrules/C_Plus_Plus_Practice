@@ -1,10 +1,3 @@
-/*
-
-Then write code to do the same operations with the std::stack, and std::queue. 
-Experiment with each type of container.
-
-*/
-
 #include <vector>
 #include <set>
 #include <list>
