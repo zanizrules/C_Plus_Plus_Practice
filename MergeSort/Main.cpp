@@ -72,7 +72,7 @@ void merge(int arrayToSort[], int leftStart, int rightStart, int leftEnd, int ri
 		{
 			sortedArray[mergedIndexPosistion] = arrayToSort[leftIndexPosistion]; // Assign left side as its smaller
 			leftIndexPosistion++; // Move along so we can compare the next element 
-		}
+		} 
 		else
 		{
 			sortedArray[mergedIndexPosistion] = arrayToSort[rightIndexPosistion]; // Assign right side as its smaller
